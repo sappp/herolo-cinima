@@ -3,9 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap-css-only": "^4.3.1",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
-    "react-scripts": "2.1.8"
+    "react-icons": "^3.5.0",
+    "react-redux": "^6.0.1",
+    "react-scripts": "2.1.8",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,5 +27,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "redux-logger": "^3.0.6"
+  }
 }

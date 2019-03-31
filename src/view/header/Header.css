@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.Header h1 {
+  font-family: 'Lobster';
+  padding-right: 15px;
+}
+
+.Header-version-changer {
+  margin-bottom: 5px;
+  background: #fff;
+  padding: 2px;
+  border-radius: 28px;
+  
+}
+
+.Header-version-changer button {
+  border: 0;
+  color: #fff;
+}
+.Header-version-changer button:not(:disabled):not(.disabled):hover {
+  color: #fff;
+  background-color: #61dafb;
+}
+
+.Header-version-changer button:not(:disabled):not(.disabled):active {
+  color: #fff;
+  background-color: #61dafb;
+}
+
+.Header-version-changer button:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem #61dafb;
+}
+
+.Version-changer-r-btn {
+  background-color: #282c34;
+  border-top-right-radius: 27px;
+  border-bottom-right-radius: 27px;
+}
+
+.Version-changer-l-btn {
+  background-color: #282c34;
+  border-top-left-radius: 27px;
+  border-bottom-left-radius: 27px;
+}
+.Version-changer-btn-active {
+  color:white;
+  background-color: #61dafb;
+}
+
+.Toolbar {
+  margin-bottom: 5px;
+  background: #fff;
+  padding: 2px;
+  border-radius: 28px;
+}
+
+.Toolbar button {
+  border: 0;
+  color: #fff;
+  background-color: #282c34;
+}
+
+.Toolbar .add-btn {
+  border-top-left-radius: 27px;
+  border-bottom-left-radius: 27px;
+  border-right: 1px solid #fff;
+}
+.Toolbar .delete-btn {
+  border-top-right-radius: 27px;
+  border-bottom-right-radius: 27px;
+  border-left: 1px solid #fff;
+}
+.Toolbar .edit-btn {
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+}
+
+.Toolbar button:hover {
+  color: #fff;
+}
+
+.Toolbar button:not(:disabled):not(.disabled):hover {
+  color: #fff;
+  background-color: #61dafb;
+}
+.Toolbar .delete-btn:not(:disabled):not(.disabled):hover {
+  color: #fff;
+  background-color: #dc3545;
+}
+.Toolbar button:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem #61dafb;
+}

@@ -1,0 +1,15 @@
+
+.Movies {
+  min-width: 382px;
+  font-size: smaller;
+}
+
+.Movies ul {
+  width: auto;
+  color: black;
+}
+
+/* 
+.Movies-item {
+  color: black;
+} */

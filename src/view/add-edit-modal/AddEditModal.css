@@ -1,0 +1,11 @@
+.AddEditModal {
+
+}
+.AddEditModal label {
+  font-size: 1.3rem;
+}
+
+.AddEditModal .m-input-row {
+  display: flex;
+  flex-wrap: wrap;
+}
